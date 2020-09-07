@@ -158,7 +158,7 @@ public class TeamsActivity extends AppCompatActivity {
         nteamname.add("Royal Challenger Bangalore");
         nowner.add("Owner: Chennai Super Kings Cricket Ltd");
         ncaptain.add("Captain: Mahendra Singh Dhoni");
-        ndescription.add("Description:  :"+rcb);
+        ndescription.add("Description:  :"+rcbinfo);
         ntournamnents.add("Tournaments:  Indian Preimer League wins 3(2010,2011,2018)  CLT20: 2(2010,2014)");
         nwin_no.add("Total N.o of wins till date:  152");
         nlose_no.add("Total N.o of lose till date: 111");

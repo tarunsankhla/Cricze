@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TournamentsActivity">
+    <RelativeLayout
+        android:background="@color/colortopbackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/textGrid"
+            android:text="@string/list_of_all_tournaments_swipe_left"
+            android:textSize="18sp"
+            android:textColor="@color/cardview_dark_background"
+            android:textStyle="bold"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/tournaments_recycler_item"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

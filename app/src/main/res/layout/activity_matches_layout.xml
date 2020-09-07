@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/activity_match_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="7dp"
+        app:cardBackgroundColor="@color/backgroundog">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/matches_list_team2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/recent_match"
+                android:textColor="@color/cardview_dark_background"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:background="@color/colortopbackgroundgrey"
+                android:textSize="18sp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="horizontal">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/matches_list_team1_image"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"/>
+                <TextView
+                    android:id="@+id/matches_list_team1_score"
+                    android:layout_width="match_parent"
+                    android:textSize="14sp"
+                    android:maxLines="1"
+                    android:padding="10dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="horizontal">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/matches_list_team2_image"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"/>
+                <TextView
+                    android:id="@+id/matches_list_team2_score"
+                    android:layout_width="match_parent"
+                    android:textSize="14sp"
+                    android:maxLines="1"
+                    android:textColor="@color/cardview_dark_background"
+                    android:padding="10dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

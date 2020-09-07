@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Cricze</string>
+    <string name="get_all_latest_updates_about_cricket">Get all latest updates about Cricket!</string>
+    <string name="results_of_ongoing_match">Results of Ongoing Match</string>
+    <string name="recent_match">Recent Match</string>
+    <string name="on">ON</string>
+    <string name="enable_notification">Enable Notification</string>
+    <string name="send_mail">Send Mail</string>
+    <string name="enter_mail_id">Enter Mail id</string>
+    <string name="leading_cricketers_of_this_decade">Leading Cricketers of this decade</string>
+    <string name="results_of_recent_match">Results of Recent Match</string>
+    <string name="indian_premier_league_teams">Indian Premier league Teams</string>
+    <string name="list_of_all_tournaments_swipe_left"><![CDATA[List of all Tournaments Swipe left ->]]></string>
+    <string name="popular_crickert_venues_around_the_world">Popular Crickert Venues around the world!</string>
+</resources>

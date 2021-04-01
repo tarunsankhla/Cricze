@@ -8,5 +8,8 @@ I have tried using Android Recycler View,Json Parsing for Data Binding, Nested R
 Tried to Cover as many as possible Views in Android.
 <br />
 I have used JSON parsing for data Binding and Manual enterd JSON String if you wish to call your own api, then you can try that also or connect to database like Mongodb or SQl Server and call the REST api and get data in JSON and use JSON parser to bind the data.
+<br />
+<br />
+I have attached Screenshot of layout and also a Video of the application flow. Have a look on that before starting.
 <br /><br /><br />
 Happy Learning !!!
